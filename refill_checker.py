@@ -2,8 +2,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import os
 
-# REPLACE THIS WITH YOUR GOOGLE LINK
-SHEET_URL = "PASTE_YOUR_COPIED_LINK_HERE"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTSqAobrgSeiuTyymewtf3C6FGi47izwqX0DblzF9BnZKbE0GzSAXUCoKy8wuIzuxBR2s-reLFaHq2E/pubhtml?gid=489509710&single=true"
 
 def generate_id(name, facility, date_str, index):
     initials = "".join([n[0].upper() for n in str(name).split() if n])
